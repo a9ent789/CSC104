@@ -1,0 +1,40 @@
+div.title{
+	background-image: url("https://th.bing.com/th/id/OIP.8RC8GOUTT0Dn4_GmA65IvAHaB5?rs=1&pid=ImgDetMain");
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+div.background{
+	background-image:url("https://img.freepik.com/premium-photo/old-paper-texture-background_118047-1365.jpg");
+	background-size:cover;
+	background-repeat: no-repeat;
+}
+
+h1{
+	font-size: 50px;
+	text-align: center;
+	color: #FACECF;
+	text-shadow:10px 10px 10px Black;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
+}
+
+h2{
+	color: #3E0055;
+	font-size: 25px;
+	text-shadow:0px 2px 5px blue;
+	font-family:arial;
+}
+
+h3{
+	border: ridge;
+	color: #7F0000;
+	font-size: 20px;
+	text-shadow:0 0 3px red;
+	font-family: times new roma, arial;
+}
+
+p{
+	font-size: 18px;
+	text-align: justify;
+	color: #000000;
+	font-family: times new roman, arial;
+}
