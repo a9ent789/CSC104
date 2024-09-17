@@ -1,40 +1,71 @@
+/*this is the main title of the web page*/
 div.title{
+	/*this pulls the background image from the internet*/
 	background-image: url("https://th.bing.com/th/id/OIP.8RC8GOUTT0Dn4_GmA65IvAHaB5?rs=1&pid=ImgDetMain");
-	background-size:cover;
-	background-repeat: no-repeat;
-}
-div.background{
-	background-image:url("https://img.freepik.com/premium-photo/old-paper-texture-background_118047-1365.jpg");
-	background-size:cover;
+	/*This takes the background image and fills up the size of the area*/
+	background-size: cover;
+	/*This makes sure that the background image doesn't repeat*/
 	background-repeat: no-repeat;
 }
 
+/*This is the background for the body of the web page*/
+div.background{
+	/*This pulls the background image from the internet*/
+	background-image:url("https://img.freepik.com/premium-photo/old-paper-texture-background_118047-1365.jpg");
+	/*This takes the background image and fills up the size of the area*/
+	background-size:cover;
+	/*This makes sure that the background image doesn't repeat*/
+	background-repeat: no-repeat;
+}
+
+/*This is for the biggest header on the page*/
 h1{
+	/*This changes the font size of the text*/
 	font-size: 50px;
+	/*This makes the font go to the center of the page*/
 	text-align: center;
+	/*This changes the color of the font*/
 	color: #FACECF;
+	/*This adds a shadow that shows behind the text*/
 	text-shadow:10px 10px 10px Black;
+	/*This sets the font of the text*/
 	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 }
 
+/*This is for the second biggest header on the page*/
 h2{
+	/*This changes the color of the font*/
 	color: #3E0055;
+	/*This changes the size of the text*/
 	font-size: 25px;
+	/*This adds a shadow to the text*/
 	text-shadow:0px 2px 5px blue;
+	/*This sets the font of the text*/
 	font-family:arial;
 }
 
+/*This is for the third biggest header on the page*/
 h3{
+	/*This adds a boarder around the entire header*/
 	border: ridge;
+	/*This changes the color of the text*/
 	color: #7F0000;
+	/*This changes the size of the font*/
 	font-size: 20px;
+	/*This adds a shadow to the text*/
 	text-shadow:0 0 3px red;
+	/*This sets the font of the text*/
 	font-family: times new roma, arial;
 }
 
+/*This is for the paragraph sized text in the web page, where most of the information is.*/
 p{
+	/*This chanes the font size of the text*/
 	font-size: 18px;
+	/*This sets the text to fill up both sides of the page*/
 	text-align: justify;
+	/*This sets the color of the text*/
 	color: #000000;
+	/*This sets the font of the text*/
 	font-family: times new roman, arial;
 }
